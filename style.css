@@ -1,0 +1,34 @@
+
+
+.container ul{
+    text-transform: uppercase;
+    list-style: none;
+    color: black;
+    padding: 10px 50px;
+    display: flex;
+    gap: 30px;
+    background-color: #aaa;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    text-align: center;
+    flex: 1;
+}
+
+footer{
+    color: black;
+    background-color: blue;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
